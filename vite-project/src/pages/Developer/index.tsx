@@ -8,7 +8,7 @@ const Developer: React.FC = () => {
     <Container>
       <Title>Desenvolvedor Front-End</Title>
 
-      <Description>
+      <Description> 
         Experiencia com desenvolvimento em Front-End e Mobile, com uma breve base em Back-End e NoSQL.
         Atualmente possuo conhecimento em React, TypeScript, Styled Components, SASS, Node.js, MongoDB e Firebase.
       </Description>
