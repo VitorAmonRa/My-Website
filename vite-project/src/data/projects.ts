@@ -24,8 +24,8 @@ export const projects: Project[] = [
   {
     title: "Este portfólio",
     description:
-      "Site pessoal com cena 3D interativa em WebGL, animações guiadas pelo scroll e cards com efeito de profundidade.",
-    tags: ["React", "TypeScript", "Three.js", "React Three Fiber", "Framer Motion"],
+      "Site pessoal com um buraco negro em tempo real (shader WebGL com lente gravitacional), animações guiadas pelo scroll e cards com efeito de profundidade.",
+    tags: ["React", "TypeScript", "Three.js", "GLSL", "Framer Motion"],
     repo: "https://github.com/VitorAmonRa/My-Website",
     demo: "https://my-website-omega-opal.vercel.app/",
     accent: "#a78bfa",
