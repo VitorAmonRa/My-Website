@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { motion } from "framer-motion";
 
 const gradientText = css`
-  background: linear-gradient(90deg, #c4b5fd 0%, #22d3ee 50%, #f59e0b 100%);
+  background: linear-gradient(90deg, #ffe4c4 0%, #fdba74 45%, #f97316 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -10,7 +10,7 @@ const gradientText = css`
 
 export const Page = styled.div`
   position: relative;
-  color: #e9e7f5;
+  color: #f6ede4;
   min-height: 100vh;
 `;
 
@@ -18,7 +18,7 @@ export const CanvasLayer = styled.div`
   position: fixed;
   inset: 0;
   z-index: 0;
-  background: radial-gradient(ellipse at 70% 40%, #1d0f3d 0%, #05030d 65%);
+  background: radial-gradient(ellipse at 70% 40%, #2a1306 0%, #070402 65%);
 `;
 
 export const Progress = styled(motion.div)`
@@ -28,7 +28,7 @@ export const Progress = styled(motion.div)`
   right: 0;
   height: 3px;
   transform-origin: 0 50%;
-  background: linear-gradient(90deg, #7c3aed, #22d3ee, #f59e0b);
+  background: linear-gradient(90deg, #c2410c, #f97316, #fbbf24);
   z-index: 50;
 `;
 
@@ -45,7 +45,7 @@ export const Nav = styled.nav`
   width: min(760px, calc(100% - 2rem));
   justify-content: space-between;
   border-radius: 999px;
-  background: rgba(10, 8, 25, 0.55);
+  background: rgba(16, 9, 4, 0.55);
   border: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -62,7 +62,7 @@ export const NavLinks = styled.div`
   display: flex;
   gap: 1.5rem;
   a {
-    color: #cfcbe6;
+    color: #e8dccf;
     text-decoration: none;
     font-size: 0.95rem;
     transition: color 0.2s;
@@ -95,7 +95,7 @@ export const Hero = styled.section`
 
 export const Eyebrow = styled(motion.p)`
   font-size: 1.1rem;
-  color: #a5a1c2;
+  color: #bba795;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -125,13 +125,13 @@ export const Roles = styled(motion.div)`
   gap: 0.75rem 1rem;
   margin-top: 1.5rem;
   font-size: clamp(1rem, 2vw, 1.3rem);
-  color: #cfcbe6;
+  color: #e8dccf;
   i {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #22d3ee;
-    box-shadow: 0 0 12px #22d3ee;
+    background: #fbbf24;
+    box-shadow: 0 0 12px #fbbf24;
   }
 `;
 
@@ -159,12 +159,12 @@ export const Button = styled.a<{ $primary?: boolean }>`
     $primary &&
     css`
       border-color: transparent;
-      background: linear-gradient(90deg, #7c3aed, #2563eb);
-      box-shadow: 0 10px 30px -10px #7c3aed;
+      background: linear-gradient(90deg, #f97316, #c2410c);
+      box-shadow: 0 10px 30px -10px #f97316;
     `}
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 16px 40px -12px #7c3aed;
+    box-shadow: 0 16px 40px -12px #f97316;
   }
 `;
 
@@ -173,7 +173,7 @@ export const ScrollHint = styled(motion.a)`
   bottom: 2rem;
   left: 50%;
   margin-left: -1rem;
-  color: #a5a1c2;
+  color: #bba795;
   font-size: 1.4rem;
 `;
 
@@ -195,7 +195,7 @@ export const SectionTitle = styled(motion.h2)`
     display: block;
     font-size: 0.9rem;
     letter-spacing: 0.3em;
-    color: #22d3ee;
+    color: #fbbf24;
     margin-bottom: 0.5rem;
   }
 `;
@@ -207,7 +207,7 @@ export const SubTitle = styled(motion.h3)`
 
 export const Lead = styled(motion.p)`
   font-size: 1.2rem;
-  color: #cfcbe6;
+  color: #e8dccf;
   max-width: 640px;
   margin-bottom: 2.5rem;
   line-height: 1.6;
@@ -226,7 +226,7 @@ export const AboutGrid = styled.div`
 export const Glass = styled(motion.div)`
   padding: 2rem;
   border-radius: 20px;
-  background: linear-gradient(145deg, rgba(30, 22, 60, 0.6), rgba(14, 10, 32, 0.55));
+  background: linear-gradient(145deg, rgba(42, 22, 10, 0.6), rgba(18, 10, 5, 0.55));
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -263,7 +263,7 @@ export const Skill = styled(motion.div)<{ $color: string }>`
   gap: 0.75rem;
   padding: 1.4rem 0.75rem;
   border-radius: 16px;
-  background: rgba(14, 10, 32, 0.6);
+  background: rgba(18, 10, 5, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -275,7 +275,7 @@ export const Skill = styled(motion.div)<{ $color: string }>`
   }
   span {
     font-size: 0.9rem;
-    color: #cfcbe6;
+    color: #e8dccf;
     text-align: center;
   }
 `;
@@ -305,7 +305,7 @@ export const Dot = styled.span<{ $color: string }>`
 `;
 
 export const ProjectDesc = styled.p`
-  color: #cfcbe6;
+  color: #e8dccf;
   line-height: 1.6;
   margin-bottom: 1.25rem;
 `;
@@ -320,9 +320,9 @@ export const Tags = styled.ul<{ $big?: boolean }>`
     padding: ${({ $big }) => ($big ? "0.45rem 0.9rem" : "0.3rem 0.7rem")};
     font-size: ${({ $big }) => ($big ? "0.95rem" : "0.8rem")};
     border-radius: 999px;
-    background: rgba(124, 58, 237, 0.15);
-    border: 1px solid rgba(167, 139, 250, 0.3);
-    color: #ddd6fe;
+    background: rgba(249, 115, 22, 0.14);
+    border: 1px solid rgba(251, 146, 60, 0.35);
+    color: #fed7aa;
   }
 `;
 
@@ -340,11 +340,11 @@ export const ProjectLinks = styled.div`
     font-weight: 600;
   }
   span {
-    color: #8b87a8;
+    color: #9c8a79;
     font-weight: 400;
   }
   a:hover {
-    color: #22d3ee;
+    color: #fbbf24;
   }
 `;
 
@@ -369,6 +369,6 @@ export const Footer = styled.footer`
   z-index: 1;
   text-align: center;
   padding: 3rem 1rem;
-  color: #6f6b8a;
+  color: #7b6a5b;
   font-size: 0.9rem;
 `;

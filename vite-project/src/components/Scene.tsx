@@ -62,7 +62,7 @@ const fragment = /* glsl */ `
     }
     float n = fbm(uv * 2.2 + vec2(uTime * 0.005, 0.0));
     float n2 = fbm(uv * 4.0 - 3.0);
-    col += vec3(0.20, 0.08, 0.35) * pow(n, 3.0) * 0.9 + vec3(0.02, 0.10, 0.22) * pow(n2, 3.0) * 0.8;
+    col += vec3(0.30, 0.11, 0.04) * pow(n, 3.0) * 0.9 + vec3(0.12, 0.05, 0.03) * pow(n2, 3.0) * 0.8;
     return col;
   }
 

@@ -6,7 +6,7 @@ const Card = styled(motion.div)<{ $accent: string }>`
   position: relative;
   border-radius: 20px;
   padding: 1.75rem;
-  background: linear-gradient(145deg, rgba(30, 22, 60, 0.65), rgba(14, 10, 32, 0.6));
+  background: linear-gradient(145deg, rgba(42, 22, 10, 0.65), rgba(18, 10, 5, 0.6));
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);

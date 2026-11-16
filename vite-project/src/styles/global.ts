@@ -12,8 +12,8 @@ export default createGlobalStyle`
     scroll-behavior: smooth;
   }
   body {
-    background: #05030d;
-    color: #e9e7f5;
+    background: #070402;
+    color: #f6ede4;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
   }
@@ -21,21 +21,21 @@ export default createGlobalStyle`
     margin: 0 auto;
   }
   a:focus-visible, button:focus-visible {
-    outline: 2px solid #22d3ee;
+    outline: 2px solid #fbbf24;
     outline-offset: 3px;
   }
   ::selection {
-    background: #7c3aed;
+    background: #f97316;
     color: #fff;
   }
   ::-webkit-scrollbar {
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: #05030d;
+    background: #070402;
   }
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #7c3aed, #22d3ee);
+    background: linear-gradient(180deg, #f97316, #7c2d12);
     border-radius: 10px;
   }
   @media (prefers-reduced-motion: reduce) {
