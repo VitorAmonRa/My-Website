@@ -145,7 +145,7 @@ const Main: React.FC<Props> = ({ section }) => {
               </p>
             </S.Glass>
             <motion.div {...inView} custom={2}>
-              <TiltCard accent="#a78bfa" reducedMotion={reducedMotion}>
+              <TiltCard accent="#fb923c" reducedMotion={reducedMotion}>
                 <S.Photo src={garoto} alt="Foto de Vitor" />
               </TiltCard>
             </motion.div>

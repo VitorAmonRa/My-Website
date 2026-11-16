@@ -19,15 +19,15 @@ export const projects: Project[] = [
       "Painel em tempo real da situação dos equipamentos e da posição dos spreaders de um terminal portuário. Gestão com login, painel para TV organizável (arrastar e redimensionar), relatório para PDF e versão mobile.",
     tags: ["React", "Firebase", "Styled Components", "Vite", "react-grid-layout"],
     repo: "https://github.com/VitorAmonRa/Status-dos-Equipamentos",
-    accent: "#22d3ee",
+    accent: "#fbbf24",
   },
   {
     title: "Este portfólio",
     description:
-      "Site pessoal com cena 3D interativa em WebGL, animações guiadas pelo scroll e cards com efeito de profundidade.",
-    tags: ["React", "TypeScript", "Three.js", "React Three Fiber", "Framer Motion"],
+      "Site pessoal com um buraco negro em tempo real (shader WebGL com lente gravitacional), animações guiadas pelo scroll e cards com efeito de profundidade.",
+    tags: ["React", "TypeScript", "Three.js", "GLSL", "Framer Motion"],
     repo: "https://github.com/VitorAmonRa/My-Website",
     demo: "https://my-website-omega-opal.vercel.app/",
-    accent: "#a78bfa",
+    accent: "#fb923c",
   },
 ];
